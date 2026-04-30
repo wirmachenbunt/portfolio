@@ -12,6 +12,23 @@ body {
   line-height: 1.7;
 }
 
+/* Cables Background Canvas */
+#glcanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  display: block;
+  outline: 0;
+}
+
+header, main, footer {
+  position: relative;
+  z-index: 1;
+}
+
 /* Navigation */
 header {
   padding: 1.5rem 2rem;
